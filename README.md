@@ -17,8 +17,10 @@ Os links abaixo apontam sempre para a versão mais recente.
   Instala para o seu usuário, sem administrador, e cria o atalho "Claude Switcher" no Menu Iniciar.
 - **macOS (chip Apple, M1 ou mais novo)**: baixe
   [ClaudeSwitcher-macos.dmg](https://github.com/seazone-tech/switcher-painel-dist/releases/latest/download/ClaudeSwitcher-macos.dmg),
-  arraste o Claude Switcher para a pasta Aplicativos e abra de lá. Na primeira vez, botão direito →
-  Abrir (o app não é assinado pela Apple; só nessa primeira abertura).
+  arraste o Claude Switcher para a pasta Aplicativos e abra de lá. O app não é notarizado pela Apple,
+  então na primeira abertura o macOS avisa que não pôde verificá-lo: clique em "Concluído", abra
+  Ajustes do Sistema → Privacidade e Segurança, role até o aviso do Claude Switcher e clique em
+  "Abrir Mesmo Assim" (pede a senha do Mac). Só nessa primeira vez. Mac Intel não tem instalador.
 - **Linux**: baixe
   [ClaudeSwitcher-linux.AppImage](https://github.com/seazone-tech/switcher-painel-dist/releases/latest/download/ClaudeSwitcher-linux.AppImage),
   dê permissão de execução (`chmod +x ClaudeSwitcher-linux.AppImage`) e abra.
